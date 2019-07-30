@@ -66,6 +66,18 @@
       <version>1.19</version>
     </dependency>
 
+    <!-- To parse the AAB file format -->
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>bundletool</artifactId>
+      <version>0.10.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>aapt2-proto</artifactId>
+      <version>0.4.0</version>
+    </dependency>
+
     <!-- Pinned as various other dependencies rely on it -->
     <dependency>
       <groupId>com.google.http-client</groupId>
